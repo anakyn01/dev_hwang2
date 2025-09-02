@@ -1,0 +1,55 @@
+/*nest*/
+html body .border {
+  border: 2px solid coral;
+  padding: 5px;
+}
+html body .border .one, html body .border .two, html body .border .three {
+  padding: 10px;
+}
+html body .border .one {
+  color: black !important;
+  border: 2px dotted red;
+}
+html body .border .two {
+  color: gray !important;
+  border: 2px double green;
+}
+html body .border .three {
+  color: aqua !important;
+}
+html body h1 {
+  color: red;
+}
+html body p {
+  color: blue;
+}
+html body pre {
+  color: hotpink;
+}
+html body .flex {
+  display: flex;
+}
+html body .flex .tomato {
+  background: tomato;
+}
+html body .flex .orange {
+  background: orange;
+}
+html body .flex .dodgerblue {
+  background: dodgerblue;
+}
+html body .flex .MediumSeaGreen {
+  background: mediumseagreen;
+}
+html body .flex .gray {
+  background: gray;
+}
+html body .flex .slateblue {
+  background: slateblue;
+}
+html body .flex .violet {
+  background: violet;
+}
+html body .flex .lightgray {
+  background: lightgray;
+}/*# sourceMappingURL=style.css.map */

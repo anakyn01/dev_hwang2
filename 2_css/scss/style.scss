@@ -1,0 +1,33 @@
+/*nest*/
+html{
+    body{
+        .border{
+            border:2px solid coral;
+            padding: 5px;//상 우 하 좌
+            .one, .two, .three{//만약 클래스가 아이디가 동일한 속성이 들어갈 경우 콤마로 구분하고 동일한 한번만 표기하는 편이 코드량이 적다
+                padding: 10px;
+            }
+            .one{color:black !important;
+            border:2px dotted red;
+            }
+            .two{color:gray !important;
+            border:2px double green;
+            }
+            .three{color:aqua !important;}
+        }
+        h1{color:red;}
+        p{color:blue;}
+        pre{color:hotpink;}
+        .flex{
+            display:flex;
+            .tomato{background:tomato;}
+            .orange{background: orange;}
+            .dodgerblue{background: dodgerblue;}
+            .MediumSeaGreen{background: mediumseagreen;}
+            .gray{background: gray;}
+            .slateblue{background: slateblue;}
+            .violet{background: violet;}
+            .lightgray{background: lightgray;}
+        }
+    }
+}
