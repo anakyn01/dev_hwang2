@@ -1,0 +1,15 @@
+@import "reset";
+
+html{
+    font-size:14px;
+    body{
+        font-family:Arial, Helvetica, sans-serif;
+        //폰트패밀리를 첫번째로 아리알, 없으면 헬백티가, 그것또한 없으면 각진글씨
+        header{
+        background-color: #666; padding:1rem;
+        //최상위루트에서 14px설정했을때는 1rem이 됩니다 
+        text-align:center;//글씨에 정렬을 가운데로 합니다
+        font-size:.8rem; color:white;
+        }
+    }
+}
