@@ -11,5 +11,27 @@ html{
         text-align:center;//글씨에 정렬을 가운데로 합니다
         font-size:.8rem; color:white;
         }
+        nav{
+            width:100%;//가로크기를 잡아줍니다
+            height:7.14285714rem; 
+            display:flex;
+            justify-content: center;//가로정렬을 가운데로
+            align-items:center;//세로정렬도 가운데로
+            background: #333;
+            color:white;  
+        }
+        main{
+        display:flex;
+        .left{
+        width:70%; background:red; color:white;
+        text-align:center; padding: 1rem;
+        }
+        aside{
+        width:30%; background:blue;   
+        /*text-align:center;*/ color:#fff;
+        display:flex; justify-content:center;
+        align-items: center; 
+        }
+        }
     }
 }
