@@ -1,3 +1,21 @@
+//3)산술연산자
+let double = 2**3;
+let div = 3 / 2;
+let per = 3 % 2;
+let q = 1;//이구문은 증가가 전위 전산자만 가능
+let end = ++q;
+
+let w = 5;//후의전산자는 이방법으로
+w++;
+let e = w;
+
+document.write("<br/>" +
+"3을 2로 나눈값은 = " + div + "<br/>" +
+"3을 2로 나눈 나머지는 = " +per + "<br/>" +
+"1에 증가 값은 = " + end + "<br/>" +
+e   
+)
+
 //2)let, const
 const PI = 3.141592653589793;
 //PI = 3.14; let과 const는 재할당을 금지합니다
