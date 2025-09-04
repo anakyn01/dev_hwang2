@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>삼항연산자(Ternary)</h1>
+<input type="text" id="age">
+<button onclick="HowOldAreYou()">눌러보아요</button>
+<p id = "find"></p>
+<script>
+HowOldAreYou = () => {
+//1)document에서 age라는 id 찾기
+let age = document.getElementById("age").value;
+//변수 age에 document에서 찾은 아이디 age에 입력값을 대입 
+//삼항연산자로 입력값에 따라 값이 출력되게 설정 
+let voteable = (age < 18 ) ? "Too young" : "old enough";
+//document.write(voteable) ;
+//3)메세지를 출력하는 장치를 만듬
+document.getElementById("find").innerHTML = "당신은" + voteable;
+}
